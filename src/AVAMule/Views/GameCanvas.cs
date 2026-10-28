@@ -9,8 +9,9 @@ using AVAMule.Engine;
 namespace AVAMule.Views;
 
 /// <summary>
-/// The arcade screen: a fixed 1024×768 picture scaled to fit the window, the tall playfield of sea
-/// scrolling down the middle with a panel either side. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: the month and its phase along the top, the
+/// colony's map (or the town, or the auction) in the middle, and the colonists along the bottom. Runs the engine
+/// from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {

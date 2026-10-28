@@ -3,7 +3,7 @@ using Avalonia.Input;
 namespace AVAMule.Engine;
 
 /// <summary>
-/// Keyboard and gamepad boiled down to the controls: the stick (eight ways), fire and the roll.
+/// Keyboard and gamepad boiled down to the controls: the stick (eight ways), the action button and a second button.
 /// </summary>
 public sealed class InputHandler : IDisposable
 {
